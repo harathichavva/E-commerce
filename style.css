@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,900;1,400&display=swap');
+body{
+    font-family: 'poppins';
+}
+.navbar{
+    padding:1 2%;
+}
+.hero{   
+position:relative;
+background: #F4F6F5;
+border-radius:35px;
+padding:6%;
+cursor: pointer;
+}
+.cname{
+    font-size:larger;
+    font-weight:bolder;
+    color: black;
+}
+.nav-link{
+    color:black;
+}
+.hero-col-6{
+    font: family poppins -900px; 
+    font: size 5px;
+    font-weight:bolder;
+    position:relative;
+}
+.bg-white{
+    position: absolute;
+    background: #FFFFFF;
+    transform: rotate(-2deg);
+    text-align:center;
+    }
+.bg-yellow{
+    position: absolute;
+    background:#EBD96B;;
+    transform: rotate(-2deg);
+    text-align:center;
+}
+.brand_color{
+    background-color: #EBD96B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-br{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(auto);
+}
+.container-br img{
+    align-items: center;
+    mix-blend-mode:darken;
+    margin-top: 22px;
+    padding: 10px;
+}
+.na{
+    font: family poppins -900px; 
+    font-size:larger;
+    font-weight:bolder;
+    color: black;
+}
+.na1{
+    font: family poppins -500px; 
+    font-size:medium;
+    font-weight:bold;
+    color: black;
+}
+.pd{
+   align-items: center;
+   padding-left: 100px;
+}
+.hero1{   
+    position:relative;
+    display:flex;
+    background: #fae057;
+    padding:0%;
+    cursor: pointer;
+    display:grid;
+    }
+    .hero1-img{
+        align-items: center;
+        mix-blend-mode:normal;
+        margin-top: 22px;
+        padding-left: 100px;
+    }
+    .ab{
+        justify-content:flex-end;
+        font: family poppins -900px; 
+        font: size 5px;
+        font-weight:bolder;
+      
+    }
+    .cyf{
+        position: relative;
+        display:flex;
+        justify-content: space-around;
+        
+    }
+    .app{
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .app1{
+        padding-top: 100px;
+        text-align: center;
+    }
+    .tf{
+    position:relative;
+    display:flex;
+    background:#E5C643;
+    padding:8%;
+    cursor: pointer;
+    display:grid;
+    align-content: center;
+    color: white;
+    text-align: center;
+    }
+    .email-signup{
+        background: white;
+        display:flex;
+        border-radius: 4px;
+        align-items: center;
+        overflow: hidden;
+       
+    }
+    .email-signup input{
+        flex:1;
+        border:0;
+        outline:0px;
+    }
+    .email-signup button{
+        background-color:black;
+        border:0;
+        outline: 0;
+        color:white;
+        cursor:pointer;
+        font-size: 16px;
+        padding:10px 35px;
+    }
+   .footer_section{
+    position:relative;
+    display:flex;
+    background:black;
+    padding:9%;
+    cursor: pointer;
+    display:grid;
+    color: white;
+   }
+   ul{
+    list-style-type: none;
+   }
+   li{
+    color:#8E8E8E;
+
+   }
